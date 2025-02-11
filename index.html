@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bet Challenge</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #cccccc;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cccccc;
+        }
+
+        .main {
+            background-color: #ffffff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #171a1b;
+        }
+
+        .two-columns {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            padding: 15px 0 25px;
+        }
+
+        .three-columns .column {
+            display: inline-block;
+            width: 32%;
+            margin-right: 2%;
+        }
+
+        .three-columns .column:last-child {
+            margin-right: 0;
+        }
+
+        .three-columns .padding {
+            padding: 15px;
+        }
+
+        .three-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        .two-columns,
+        .two-columns-last p {
+            margin-bottom: 24px;
+        }
+
+        .two-columns-last img {
+            width: 260;
+            max-width: 260px;
+        }
+
+        .two-columns-last .padding-content {
+            padding: 16px 32px;
+            height: 211px;
+            text-align: left;
+        }
+
+        .button {
+            padding: 10px 24px;
+            border-radius: 4px;
+            border-style: none;
+            font-size: 12px;
+            color: #000;
+            background: #fff;
+            text-decoration: none;
+        }
+
+        .button-black {
+            color: #fff;
+            background: #000;
+            text-decoration: none;
+        }
+
+        .padding-force {
+            padding: 24px 24px 40px 24px;
+        }
+
+        .padding-force .column {
+            width: 100%;
+            text-align: center;
+        }
+
+        /* tablets */
+        @media (max-width: 768px) {
+            .three-columns .column {
+                width: 48%;
+                margin-right: 2%;
+            }
+
+            .three-columns .column:nth-child(2n) {
+                margin-right: 0;
+            }
+
+            .two-columns-last {
+                text-align: left;
+            }
+
+            .two-columns-last .column {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .two-columns-last .padding-content {
+                padding: 0px 32px;
+                height: 237px;
+            }
+
+            .two-columns-last img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        /* móviles */
+        @media (max-width: 480px) {
+            .three-columns .column {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .three-columns .column:last-child {
+                margin-bottom: 0;
+            }
+
+            .two-columns-last .padding-content {
+                padding: 0px 32px;
+                height: 200px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <table class="main wrapper" width="100%">
+
+        <!-- TOP BORDER -->
+
+        <tr>
+            <td height="8" style="background-color: #171a1b;"></td>
+        </tr>
+
+        <!-- LOGO SECTION -->
+
+        <tr>
+            <td class="two-columns" style="padding: 14px 0 4px;">
+
+                <table class="column">
+                    <tr>
+                        <td style="padding: 0 62px 10px;">
+                            <a href="https://w3newbie.com/email-course/">
+                                <img src="img/logo.jpg" alt="Bet Challenge Logo" width="180" title="Bet Challenge Logo">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <table class="column">
+                    <tr>
+                        <td style="padding: 10px 72px;">
+                            <a href="#">
+                                <img src="img/black-facebook.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/black-twitter.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/black-youtube.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/black-linkedin.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/black-instagram.png" alt="" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+
+        <!-- BANNER IMAGE -->
+
+        <tr>
+            <td>
+                <a href=""><img src="img/banner.jpg" alt="" width="600" style="max-width: 100%;"></a>
+            </td>
+        </tr>
+
+        <!-- THREE COLUMN SECTION -->
+
+        <tr>
+            <td class="three-columns">
+                <table class="column">
+                    <tr>
+                        <td class="padding">
+                            <table class="content">
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/one.png" alt="" width="130"
+                                                style="max-width: 130px;"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-weight: bold; font-size: 17px;">Ecommerce</p>
+                                        <p>Stream live games, stats & highlights anytime!</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table class="column">
+                    <tr>
+                        <td class="padding">
+                            <table class="content">
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/two.png" alt="" width="130"
+                                                style="max-width: 130px;"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-weight: bold; font-size: 17px;">Settings</p>
+                                        <p>Easily track your bets, stats & rankings in real time!</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table class="column">
+                    <tr>
+                        <td class="padding">
+                            <table class="content">
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/three.png" alt="" width="130"
+                                                style="max-width: 130px;"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-weight: bold; font-size: 17px;">HTML Email</p>
+                                        <p>Easily get your tickets, seats & deals for every game!</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Añade más tablas de contenido según sea necesario -->
+            </td>
+        </tr>
+
+        <!-- TWO COLUMN SECTION -->
+
+        <tr>
+            <td class="two-columns two-columns-last" style="background-color: #26292b;">
+                <table class="column">
+                    <tr>
+                        <td style="padding: 24px;"> <!-- class="padding" -->
+                            <table class="content">
+                                <img src="img/lebron.jpg" alt="">
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table class="column">
+                    <tr>
+                        <td class="padding-content">
+                            <table class="content">
+                                <h1 style="color: #ffffff; font-size: 16px;">The Ultimate NBA Platform</h1>
+                                <p style="color: #ffffff; font-size: 12px;">Bet on NBA games and player performance!
+                                    Connect with NBA Live Pass & Live Tickets for the full experience</p>
+                                <a href="#" class="button">Read More</a>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- TITLE, TEXT & BUTTON -->
+
+        <tr>
+            <td class="padding-force">
+                <table class="column">
+                    <tr>
+                        <td>
+                            <table class="content">
+                                <h2>Why Join Bet Challenge?</h2>
+                                <p>Test your NBA knowledge, bet on games and players,
+                                    and climb the leaderboards! Enjoy real-time stats,
+                                    exclusive rewards, and seamless access to NBA Live Pass
+                                    & Live Tickets. Join now and experience the thrill!
+                                </p>
+                                <a href="#" class="button button-black">Join Here!</a>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- FOOTER SECTION -->
+
+        <tr>
+            <td style="background-color: #171a1b;">
+                <table class="column" style="width: 100%;">
+                    <tr>
+                        <td style="padding: 24px; text-align: center;">
+                            <img src="img/logo-white.png" alt="Bet Challenge Logo" width="180"
+                                title="Bet Challenge Logo">
+                            <p style="color: #ffffff; font-size: 12px;">Arley HTML Email</p>
+                            <p style="color: #ffffff; font-size: 12px;">123 Street Road, City, State 55555</p>
+                            <a href="#">
+                                <img src="img/white-facebook.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/white-twitter.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/white-youtube.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/white-linkedin.png" alt="" width="30">
+                            </a>
+                            <a href="#">
+                                <img src="img/white-instagram.png" alt="" width="30">
+                            </a>
+                            <p style="padding: 10px; color: #fff;">SUBSCRIBE</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
